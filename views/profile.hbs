@@ -1,0 +1,32 @@
+<!-- views/profile.hbs -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+
+<body>
+    <h1>Profile</h1>
+    <p>Name: {{user.name}}</p>
+    <p>Library Card Number: {{user.libraryCardNumber}}</p>
+    <p>Phone Number: {{user.phoneNumber}}</p>
+    <h2>Borrowed Books</h2>
+    <ul>
+        {{#each user.borrowedBooks}}
+        <li>
+            {{title}}
+            <form method="post" action="/return/{{_id}}">
+                <button type="submit">Return</button>
+            </form>
+        </li>
+        {{/each}}
+    </ul>
+    <a href="/">Home</a>
+    <a href="/logout">Logout</a>
+</body>
+
+</html>

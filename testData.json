@@ -1,0 +1,72 @@
+{
+    "books_collection": [
+        {
+            "title": "The Testaments",
+            "author": "Margaret Atwood",
+            "image": "https://example.com/testaments.jpg",
+            "borrowed_by": ""
+        },
+        {
+            "title": "The Starless Sea",
+            "author": "Erin Morgenstern",
+            "image": "https://example.com/starless-sea.jpg",
+            "borrowed_by": ""
+        },
+        {
+            "title": "Normal People",
+            "author": "Sally Rooney",
+            "image": "https://example.com/normal-people.jpg",
+            "borrowed_by": ""
+        },
+        {
+            "title": "City of Girls",
+            "author": "Elizabeth Gilbert",
+            "image": "https://example.com/city-of-girls.jpg",
+            "borrowed_by": ""
+        },
+        {
+            "title": "The Dutch House",
+            "author": "Ann Patchett",
+            "image": "https://example.com/dutch-house.jpg",
+            "borrowed_by": ""
+        },
+        {
+            "title": "The Silent Patient",
+            "author": "Alex Michaelides",
+            "image": "https://example.com/silent-patient.jpg",
+            "borrowed_by": ""
+        }
+    ],
+    "users_collection": [
+        {
+            "name": "Peter Smith",
+            "libraryCardNumber": "1001001",
+            "phoneNumber": "415-555-1234"
+        },
+        {
+            "name": "Amy Wong",
+            "libraryCardNumber": "1001002",
+            "phoneNumber": "602-888-0000"
+        },
+        {
+            "name": "John Doe",
+            "libraryCardNumber": "1001003",
+            "phoneNumber": "123-456-7890"
+        },
+        {
+            "name": "Jane Doe",
+            "libraryCardNumber": "1001004",
+            "phoneNumber": "987-654-3210"
+        },
+        {
+            "name": "Eva Chen",
+            "libraryCardNumber": "1001005",
+            "phoneNumber": "416-123-4567"
+        },
+        {
+            "name": "Michael Johnson",
+            "libraryCardNumber": "1001006",
+            "phoneNumber": "416-987-6543"
+        }
+    ]
+}
